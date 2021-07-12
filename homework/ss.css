@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+}
+#one  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 700px;
+  }
+}
+.title {
+}
+.square1 {
+  background-color: tomato;
+}
+.square2 {
+  background-color: teal;
+}
+.square3 {
+  background-color: burlywood;
+}
+.square4 {
+  background-color: thistle;
+}
+.big {
+  width: 180px;
+  height: 300px;
+  border: solid 5px white;
+  margin: 10px 5px;
+}
+.square__r {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  width: 180px;
+  height: 100px;
+  padding: 3px;
+  position: relative;
+  top: 15px;
+  left: -2px;
+}
+.square__r__t {
+  font-size: 18px;
+  font-weight: bold;
+}
+.square__r__c {
+  font-size: 14px;
+  font-weight: bold;
+}
